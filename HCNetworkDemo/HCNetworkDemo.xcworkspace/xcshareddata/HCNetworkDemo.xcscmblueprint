@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5372506B39BF0C0E0F8B922A66A95230161A1F25",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3092C5F9A214611BD9BD652B2860BF6229699607" : 9223372036854775807,
+    "5372506B39BF0C0E0F8B922A66A95230161A1F25" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CD38FEA0-0312-471E-8A24-A453A786A7B7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3092C5F9A214611BD9BD652B2860BF6229699607" : "",
+    "5372506B39BF0C0E0F8B922A66A95230161A1F25" : "HCNetwork\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HCNetworkDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HCNetworkDemo\/HCNetworkDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AlicksCoder\/AFYYNetwork.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3092C5F9A214611BD9BD652B2860BF6229699607"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AlicksCoder\/HCNetwork.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5372506B39BF0C0E0F8B922A66A95230161A1F25"
+    }
+  ]
+}
