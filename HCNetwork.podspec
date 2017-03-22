@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name            = "HCNetwork"
-  s.version         = "1.0.0"
+  s.version         = "1.0.1"
   s.license         = { :type => "MIT", :file => "LICENSE" }
   s.author          = { "Alicks zhu" => "976898867@qq.com" }
   s.platforms       = { :ios => "8.0"}
@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   s.source          = { :git => "https://github.com/AlicksCoder/HCNetwork.git", :tag => "#{s.version}" }
   s.source_files    = "HCNetwork"
   s.ios.frameworks = "UIKit"
-  s.dependency  'AFNetworking','3.1'
-  s.dependency 'YYCache','1.0.4'
+  s.dependency      'AFNetworking',  '3.1'
+  s.dependency      'YYCache',       '1.0.4'
 
 
 
