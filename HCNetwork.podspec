@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   s.source          = { :git => "https://github.com/AlicksCoder/HCNetwork.git", :tag => "#{s.version}" }
   s.source_files    = "HCNetwork"
   s.ios.frameworks = "UIKit"
-  s.dependency  'AFNetwork'
-  s.dependency 'YYCache'
+  s.dependency  'AFNetworking','3.1'
+  s.dependency 'YYCache','1.0.4'
 
 
 
