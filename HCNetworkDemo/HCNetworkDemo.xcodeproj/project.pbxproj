@@ -13,8 +13,6 @@
 		AE1A87681E824B0900C15BD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1A87661E824B0900C15BD3 /* Main.storyboard */; };
 		AE1A876A1E824B0900C15BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1A87691E824B0900C15BD3 /* Assets.xcassets */; };
 		AE1A876D1E824B0900C15BD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1A876B1E824B0900C15BD3 /* LaunchScreen.storyboard */; };
-		AE1A87791E824B2C00C15BD3 /* HCNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1A87761E824B2C00C15BD3 /* HCNetwork.m */; };
-		AE1A877A1E824B2C00C15BD3 /* HCNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1A87781E824B2C00C15BD3 /* HCNetworkCache.m */; };
 		AECAF6FBFEA3F4E99552244E /* Pods_HCNetworkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DCE0704973EB5F5CF29DFE8 /* Pods_HCNetworkDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,10 +29,6 @@
 		AE1A87691E824B0900C15BD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE1A876C1E824B0900C15BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE1A876E1E824B0900C15BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE1A87751E824B2C00C15BD3 /* HCNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCNetwork.h; sourceTree = "<group>"; };
-		AE1A87761E824B2C00C15BD3 /* HCNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCNetwork.m; sourceTree = "<group>"; };
-		AE1A87771E824B2C00C15BD3 /* HCNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCNetworkCache.h; sourceTree = "<group>"; };
-		AE1A87781E824B2C00C15BD3 /* HCNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCNetworkCache.m; sourceTree = "<group>"; };
 		F7CE5D7F1F7F591F157AF9C5 /* Pods-HCNetworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCNetworkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HCNetworkDemo/Pods-HCNetworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +56,6 @@
 		AE1A87511E824B0900C15BD3 = {
 			isa = PBXGroup;
 			children = (
-				AE1A87741E824B2C00C15BD3 /* HCNetwork */,
 				AE1A875C1E824B0900C15BD3 /* HCNetworkDemo */,
 				AE1A875B1E824B0900C15BD3 /* Products */,
 				8E74B45980DD92A840EA7942 /* Pods */,
@@ -100,18 +93,6 @@
 				AE1A875E1E824B0900C15BD3 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AE1A87741E824B2C00C15BD3 /* HCNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				AE1A87751E824B2C00C15BD3 /* HCNetwork.h */,
-				AE1A87761E824B2C00C15BD3 /* HCNetwork.m */,
-				AE1A87771E824B2C00C15BD3 /* HCNetworkCache.h */,
-				AE1A87781E824B2C00C15BD3 /* HCNetworkCache.m */,
-			);
-			name = HCNetwork;
-			path = ../HCNetwork;
 			sourceTree = "<group>";
 		};
 		C63BE0445A6A20B59E31D787 /* Frameworks */ = {
@@ -248,8 +229,6 @@
 				AE1A87651E824B0900C15BD3 /* ViewController.m in Sources */,
 				AE1A87621E824B0900C15BD3 /* AppDelegate.m in Sources */,
 				AE1A875F1E824B0900C15BD3 /* main.m in Sources */,
-				AE1A877A1E824B2C00C15BD3 /* HCNetworkCache.m in Sources */,
-				AE1A87791E824B2C00C15BD3 /* HCNetwork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +387,7 @@
 				AE1A87731E824B0900C15BD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
